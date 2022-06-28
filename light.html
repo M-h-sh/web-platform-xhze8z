@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<style>
+	button{
+		color: Blue;
+		background-color: silver;
+	}
+	body{
+		color: blue;
+		background-color:black;
+	}
+</style>
+<body>
+
+<h2>Simple Javascript Light On  and off</h2>
+<div>
+        <div> 
+               <button onclick="document.getElementById('demo').innerHTML=Date()">click to display time</button>
+               <p id="demo"></p>
+             </div><br>
+<div>
+<p>Click the button to print the current page.</p>
+
+<button onclick="window.print()">Print this page</button>	
+</div>
+
+
+<button onclick="document.getElementById('light').src='on.png'">Turn on the light</button>
+<button onclick="document.getElementById('light').style.display='block'">Unhide the light!</button>
+
+
+<img id="light" src="off.png" style="width:300px">
+<button onclick="document.getElementById('light').style.display='none'">Hide the light!</button>
+
+<button onclick="document.getElementById('light').src='off.png'">Turn off the light</button>
+
+
+
+ <div>       
+         <h2><a href="MH_Hlatshwayo_profile.html"<b>Home</b></h2></a>
+
+      </div>
+
+</body>
+</html>
